@@ -6,14 +6,6 @@
 // Bonus goal:
 // Use a precision of 2 decimal points: 3.45€.
 
-// let readlineSync = require("readline-sync");
-
-// console.log("Qual o montante em $ que deseja converter em €: ");
-// let amount = readlineSync.question("--> ");
-
-// console.log(amount + " é o valor convertido em €");
-
-
 let readlineSync = require("readline-sync");
 
 let currencyEur = .92
