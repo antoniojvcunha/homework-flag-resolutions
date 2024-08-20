@@ -19,4 +19,3 @@ for (let i = 1; i <= n; i++) {
     sum += i;
 }
 
-console.log("A soma dos números naturais até ao número n(incluindo n) é --> " + sum);
