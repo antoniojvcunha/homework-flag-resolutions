@@ -13,9 +13,15 @@ console.log("Insere um número natural:");
 
 let n = readlineSync.question("--> ");
 
-let sum = 0; 
+let total = 0; 
 
 for (let i = 1; i <= n; i++) {
-    sum += i;
+    total = total + i;               // total += i
+    console.log(i);   
 }
+
+console.log("--------");
+console.log(total);
+
+
 

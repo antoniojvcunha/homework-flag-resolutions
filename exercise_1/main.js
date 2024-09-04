@@ -13,4 +13,4 @@ let readlineSync = require("readline-sync");
 console.log("Please enter your name:");
 let userName = readlineSync.question("--> ")
 
-console.log("Hello " + userName + ",welcome to the Learn to Code course.");
+console.log("Hello " + userName + ", welcome to the Learn to Code course.");

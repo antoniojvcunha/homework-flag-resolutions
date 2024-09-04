@@ -10,10 +10,20 @@
 //  |_/ \________/ \___|
 // ___\_/________\_/______
 
-fetch('exercise_2\text\bipbip.txt')
-  .then(response => response.text())
-  .then(text => {
-    const lines = text.split("\n");
-    console.log(lines); // Exibe o conteúdo do arquivo dividido por linhas
-  })
-  .catch(error => console.error('Erro ao carregar o arquivo:', error));
+// fetch('exercise_2\text\bipbip.txt')
+//   .then(response => response.text())
+//   .then(text => {
+//     const lines = text.split("\n");
+//     console.log(lines); // Exibe o conteúdo do arquivo dividido por linhas
+//   })
+//   .catch(error => console.error('Erro ao carregar o arquivo:', error));
+
+
+
+// escape character \
+//  \n   (quebra linha)
+//  \t   (tab)
+//  \"
+
+const message = "olá que \"bom\" ver-te."
+console.log(message);

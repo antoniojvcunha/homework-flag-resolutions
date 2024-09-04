@@ -14,10 +14,10 @@ let n = readlineSync.question("--> ");
 let sum = 0;
 
 for (let i = 1; i <= n; i++) {
-    if (i % 3 === 0 || i % 5 === 0 ) {
+    if (i % 3 == 0 || i % 5 == 0 ) {  //   || operador logico "ou"
+        console.log(i);
         sum += i;
-    }
-    
+    }  
 }
 
 console.log("A soma dos números naturais múltiplos de 3 e 5 até ao número n(incluindo n) é --> " + sum);

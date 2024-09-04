@@ -59,7 +59,7 @@ let discount10Suite = (deluxeSuite * answer1) - ((deluxeSuite * answer1) / 10);
 let discount15Suite = (deluxeSuite * answer1) - ((deluxeSuite * answer1) / 15);
 let discount20Suite = (deluxeSuite * answer1) - ((deluxeSuite * answer1) / 20);
 
-//Normal Room
+
 if (answer1 >= 15 && roomAnswser == "normal") {
     console.log("O preço total ficará em " + discount20 + "€"); //20% desconto normal
 } else if (answer1 >= 10 && roomAnswser == "normal") {
